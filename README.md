@@ -31,5 +31,6 @@ DeepCE take data as input file in tsv, csv, 10X format, or h5ad format provided 
 Run the following six files in sequence:
 dataPreprocess_1.py, genepairlist_2.py, matrix_3.py, datasetSplit_4.py, train_5.py, predict_6.py
 
-# Baseline methods
+# Data
+The data can be obtained from the link below.
 - BEELINE   https://github.com/Murali-group/Beeline
