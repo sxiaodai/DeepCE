@@ -1,6 +1,3 @@
-# This file uses code from the DGRNS project.
-# Original repository: https://github.com/guofei-tju/DGRNS
-
 import numpy as np
 from sklearn.model_selection import train_test_split
 import random
@@ -49,3 +46,4 @@ with open(data_path+'/val_index.txt','w',newline='') as f_val:
 with open(data_path+'/test_index.txt','w',newline='') as f_test:
     csv_w=csv.writer(f_test,delimiter='\n')
     csv_w.writerow(test_index)
+
