@@ -1,8 +1,4 @@
-# This file uses code from the DGRNS project.
-# Original repository: https://github.com/guofei-tju/DGRNS
-# Some modifications and adaptations have been made for this work.
-
-from dataPreprocess import *
+from dataPreprocess_1 import *
 import os
 #input
 gene_expression_path = 'C:/Users/86188/Desktop/method/scRNA-Seq/mHSC-E/mHSC-E/ExpressionDataOrdered.csv' #现有
@@ -43,6 +39,7 @@ generate_filtered_gold( gold_pair_record, gold_score_record,filtered_path + FGN_
 if not os.path.isdir(genePairList_path):
     os.makedirs(genePairList_path)
 get_gene_pair_list(unique_gene_list, gold_pair_record, gold_score_record, genePairList_path + GPL_file_name)
+
 
 
 
