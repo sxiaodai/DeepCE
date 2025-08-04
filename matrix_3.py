@@ -1,7 +1,3 @@
-# This file uses code from the DGRNS project.
-# Original repository: https://github.com/guofei-tju/DGRNS
-# Some modifications and adaptations have been made for this work.
-
 import numpy as np
 import os
 from dataPreprocess import *
@@ -209,3 +205,4 @@ print('PCC matrix generation finish.')
 print('Positive edges:'+str(num_label1))
 print('Negative edges:'+str(num_label0))
 print('Density='+str(num_label1/(num_label1+num_label0)))
+
