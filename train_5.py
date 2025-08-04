@@ -1,7 +1,3 @@
-# This file uses code from the DGRNS project.
-# Original repository: https://github.com/guofei-tju/DGRNS
-# Some modifications and adaptations have been made for this work.
-
 import os
 import time
 import numpy as np
@@ -195,4 +191,5 @@ plt.legend(loc="lower right")
 plt.ylim([0, 1])
 plt.xlim([0, 1])
 plt.savefig(model_save_dir + 'AUPRofTest.pdf')
+
 print("AUPR in figure:", AUPR)
