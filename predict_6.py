@@ -1,6 +1,3 @@
-# This file uses code from the DGRNS project.
-# Original repository: https://github.com/guofei-tju/DGRNS
-# Some modifications and adaptations have been made for this work.
 from __future__ import print_function
 import keras
 from keras.preprocessing.image import ImageDataGenerator
@@ -192,3 +189,4 @@ for index_fold in range(0,1):
     estimation(matrix_path, model_path, save_dir, f_record, index_fold)
 print('done')
 f_record.close()
+
