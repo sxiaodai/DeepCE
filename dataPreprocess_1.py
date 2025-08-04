@@ -1,7 +1,3 @@
-# This file uses code from the DGRNS project.
-# Original repository: https://github.com/guofei-tju/DGRNS
-# Some modifications and adaptations have been made for this work.
-
 import pandas as pd
 import numpy as np
 import csv
@@ -308,5 +304,6 @@ def get_low_express_gene(origin_expression_record,num_cells):
         if num<=threshold:
             gene_list.append(gene)
     return gene_list
+
 
 
