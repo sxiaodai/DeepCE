@@ -28,6 +28,14 @@ All dependencies can be installed within a few minutes.
 ##  Usage
 DeepCE take data as input file in tsv, csv, 10X format, or h5ad format provided by Scanpy (genes in columns and cells in rows for tsv and csv).
 
-Run the following six files in sequence:
-dataPreprocess_1.py, genepairlist_2.py, matrix_3.py, datasetSplit_4.py, train_5.py, predict_6.py
+Command to run DeepCE
+```sh
+python dataPreprocess_1.py 
+python genepairlist_2.py
+python matrix_3.py
+python datasetSplit_4.py
+python train_5.py
+python predict_6.py
+	 ```
+
 
